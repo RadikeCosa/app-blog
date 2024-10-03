@@ -1,17 +1,26 @@
 ---
 layout: ../../layouts/post.astro
-title: "This is the first post of my new Astro blog."
+title: 'Internacion domiciliaria y Diego'
 pubDate: 2023-12-23
-description: "This is the first post of my new Astro blog."
-author: "nicdun"
+description: 'Analisis de las noticias de Diego M. y su internacion domiciliaria'
+author: 'Ramiro'
 excerpt: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
 image:
   src:
   alt:
-tags: ["tag1", "tag2", "tag3"]
+tags: ['tag1', 'tag2', 'tag3']
 ---
 
 This is a paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
+
+ <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAFxbd9A2QM/pNPnAf1FPufHetKX09fEGg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFxbd9A2QM&#x2F;pNPnAf1FPufHetKX09fEGg&#x2F;view?utm_content=DAFxbd9A2QM&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Análisis DIEGO M.</a> de ramirocosa y vickycc.
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
 
@@ -122,7 +131,7 @@ Some text to show that the reference links can follow later.
 Images included in _\_posts_ folder are lazy loaded.
 
 Inline-style:
-![alt text](/src/images/random.jpeg "Logo Title Text 1")
+![alt text](/src/images/random.jpeg 'Logo Title Text 1')
 
 ## Table
 
@@ -140,16 +149,16 @@ Inline-style:
 ## Syntax highlight
 
 ```ts title="astro.config.mjs" showLineNumbers {1-2,5-6}
-import { defineConfig } from "astro/config";
-import vercelStatic from "@astrojs/vercel/static";
+import { defineConfig } from 'astro/config';
+import vercelStatic from '@astrojs/vercel/static';
 
 export default defineConfig({
-  output: "static",
-  adapter: vercelStatic({
-    webAnalytics: {
-      enabled: true,
-    },
-  }),
+	output: 'static',
+	adapter: vercelStatic({
+		webAnalytics: {
+			enabled: true
+		}
+	})
 });
 ```
 
