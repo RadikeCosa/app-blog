@@ -1,5 +1,5 @@
 export const AppConfig = {
-	site_name: 'AstroPress',
+	site_name: 'DevLog',
 	title: 'Bitácora de Desarrollo',
 	description: 'Diario de viaje',
 	author: 'Ramiro',
