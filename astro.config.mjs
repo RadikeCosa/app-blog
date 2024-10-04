@@ -5,14 +5,7 @@ import rehypePrettyCode from 'rehype-pretty-code';
 import react from '@astrojs/react';
 import sitemap from '@astrojs/sitemap';
 const options = {
-	// Specify the theme to use or a custom theme json, in our case
-	// it will be a moonlight-II theme from
-	// https://github.com/atomiks/moonlight-vscode-theme/blob/master/src/moonlight-ii.json
-	// Callbacks to customize the output of the nodes
-	//theme: json,
 	onVisitLine(node) {
-		// Prevent lines from collapsing in `display: grid` mode, and
-		// allow empty lines to be copy/pasted
 		if (node.children.length === 0) {
 			node.children = [
 				{
