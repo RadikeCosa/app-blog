@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/post.astro
-title: 'Internación domiciliaria y Diego'
-pubDate: 2023-12-23
+title: 'Reflexiones sobre Diego e Internación Domiciliaria'
+pubDate: 2024-10-1
 description: 'Análisis de las noticias de Diego M. y su internación domiciliaria'
 author: 'Ramiro'
 excerpt: 'Reflexión sobre el caso Maradona, la atención domiciliaria y mi aporte a través de la programación.'
